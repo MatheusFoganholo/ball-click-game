@@ -1,17 +1,18 @@
-function addBola (){
-    var bola = document.createElement("div");
-    bola.setAttribute("class", "bola");
+// Adding Ball
+function addBall (){
+    var ball = document.createElement("div");
+    ball.setAttribute("class", "ball");
     var xPosition = Math.floor(Math.random() * 1000);
     var yPosition = Math.floor(Math.random() * 520);
     var color = Math.floor(Math.random() * 999999 );
-    bola.setAttribute("style", "left:"+xPosition+"px;top:"+yPosition+"px;background-color:#"+color+";");
-    bola.setAttribute("onclick", "estourar(this)");
-    document.body.appendChild(bola);
+    ball.setAttribute("style", "left:"+xPosition+"px;top:"+yPosition+"px;background-color:#"+color+";");
+    ball.setAttribute("onclick", "explode(this)");
+    document.body.appendChild(ball);
    }
 
-
-function estourar(elemento) {
-    document.body.removeChild(elemento);
+// Clicking on Ball
+function explode(element) {
+    document.body.removeChild(element);
     var p = parseInt(document.getElementById("pontos").innerHTML);
     p = p +1;
     document.getElementById("pontos").innerHTML = p;
@@ -22,6 +23,7 @@ function estourar(elemento) {
        }
 }
 
-function iniciar (){
-    setInterval(addBola, 250);
+// Initializing Game
+function startGame (){
+    setInterval(addBall, 250);
 }
