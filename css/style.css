@@ -1,3 +1,4 @@
+/* Soft Reset */
 body {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@ body {
     box-sizing: border-box;
 }
 
+/* Info Box */
 #info {
     max-width: 320px;
     background-color: white;
@@ -20,24 +22,29 @@ body {
     user-select: none;
 }
 
+/* Info Title */
 #info h1 {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
+/* Info Text */
 #info p {
     margin: 0;
 }
 
+/* Info Objective */
 #info h2 {
     font-size: 18px;
     margin-top: 10px;
 }
 
+/* Score */
 #pontos {
     display: inline-block;
 }
 
+/* Ball */
 .bola {
     width: 50px;
     height: 50px;
