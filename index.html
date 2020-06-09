@@ -2,20 +2,23 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Ball Click (Game)</title>
+        <title>Ball Click - Game</title>
         <link rel="stylesheet" href="/css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     </head>
-    <body onload="iniciar()">
+    <body onload="startGame()">
+
+        <!-- Info Area -->
         <div id="info">
             <h1>Ball Click</h1>
-            <div>
+
+            <div id="score-area">
                 <p>Pontos:
-                <span id="pontos">0</span>
+                <span id="score">0</span>
                 </p>
-            </div>
+            </div><!--score-area-->
             
-            <h2><span>Objetivo:</span> Clique nas bolas até atingir 50 pontos.</h2>
+            <h2>Objetivo: Clique nas bolas até atingir 50 pontos.</h2>
         </div><!--info-->
 
     <!-- Javascript -->

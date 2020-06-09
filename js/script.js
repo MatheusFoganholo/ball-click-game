@@ -13,9 +13,9 @@ function addBall (){
 // Clicking on Ball
 function explode(element) {
     document.body.removeChild(element);
-    var p = parseInt(document.getElementById("pontos").innerHTML);
+    var p = parseInt(document.getElementById("score").innerHTML);
     p = p +1;
-    document.getElementById("pontos").innerHTML = p;
+    document.getElementById("score").innerHTML = p;
     
     if (p === 50) {
         alert ("Você alcançou os 50 pontos!\nParabéns!\nCaso queira recomeçar clique em OK.");
