@@ -1,7 +1,7 @@
 # ball-click-game
 This is a small project, created about 1 year ago, that I build when I was starting to study javascript.
 
-Thanks To: Teacher Bonieky Lacerda (B7Web)
+Thanks to: Teacher Bonieky Lacerda (B7Web)
 B7Web: https://b7web.com.br/fullstack/
 ~~~~
 Esse é um pequeno projeto, criado há aproximadamente 1 ano atrás.
